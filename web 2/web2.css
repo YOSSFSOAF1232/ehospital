@@ -1,0 +1,308 @@
+body{
+          background-color: rgb(212, 219, 155);
+          font-family: sans-serif;
+}
+
+
+.dad{
+          width: 80%;
+          height: 500px;
+          background-color: rgba(255, 255, 255, 0.416);
+          border-radius: 10px 10px;
+          display: flex;
+          flex-direction: row;
+          position: relative;
+          left: 100px;
+          top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.longin{
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+}
+
+.longin h1{
+          text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.502);
+}
+
+.longin input{
+          width: 250px;
+          height: 25px;
+          border-radius: 25px 25px;
+          border: 1px solid black;
+}
+
+.longin input:hover{
+    border: 1px solid rgb(226, 173, 74);
+}
+
+.longin ::placeholder{
+    position: relative;
+    left: 10px;
+}
+
+.longin button{
+          width: 250px;
+          height: 30px;
+          border-radius: 25px 25px;
+          border: 1px solid rgba(255, 228, 196, 0);
+          color: white;
+          text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.44);
+          background-color: rgb(210, 89, 45);
+          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.722);
+          position: relative;
+          bottom: 60px;
+
+}
+
+.longin button:hover{
+          text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+          box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+#input{
+    position: relative;
+    bottom: 20px;
+}
+
+#inpute{
+          position: relative;
+          bottom: 40px;  
+}
+
+
+
+
+
+
+
+.socailmadia{
+          width: 80%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          align-items: center;
+}
+
+.socailmadia button{
+         width: 50px;
+         height: 50px;
+         background-color: rgb(217, 119, 119);
+         
+         
+}
+ 
+#photo{
+          width: 30px;
+          height: 30px;
+}
+
+
+
+
+
+
+
+
+
+.inform{
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+          background-color: rgba(0, 0, 0, 0.483);
+          color: white;
+          border-radius: 0px 10px 10px 0px;
+}
+
+.inform img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.inform h1{
+          position: relative;
+          bottom: 35px;
+}
+
+.inform p{
+          width: 90%;
+          position: relative;
+          bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+    .dad{
+      width: 400px;
+      height: 600px;
+      background-color: rgba(255, 255, 255, 0.416);
+      border-radius: 10px 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }   
+
+    .longin{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+}
+    .inform img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    
+
+.longin h1{
+          text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.502);
+}
+
+.longin input{
+          width: 250px;
+          height: 25px;
+          border-radius: 25px 25px;
+          border: 1px solid black;
+}
+
+.longin input:hover{
+    border: 1px solid rgb(226, 173, 74);
+}
+
+.longin ::placeholder{
+    position: relative;
+    left: 10px;
+}
+
+.longin button{
+          width: 250px;
+          height: 30px;
+          border-radius: 25px 25px;
+          border: 1px solid rgba(255, 228, 196, 0);
+          color: white;
+          text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.44);
+          background-color: rgb(210, 89, 45);
+          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.722);
+          position: relative;
+          top: 50px;
+
+}
+
+.longin button:hover{
+          text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+          box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+#inuput{
+    position: relative;
+    top: 10px;
+}
+
+#input{
+    position: relative;
+    top: 30px;
+}
+
+#inpute{
+          position: relative;
+          top: 40px; 
+}
+
+
+
+
+.socailmadia{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.socailmadia button{
+   width: 50px;
+   height: 50px;
+   background-color: rgb(217, 119, 119);
+   
+   
+}
+
+#photo{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+.inform{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.585);
+    color: white;
+    border-radius: 0px 0px 10px 10px ;
+}
+
+.inform img{
+width: 0px;
+height: 0px;
+border-radius: 50%;
+}
+
+.inform h1{
+    position: relative;
+    bottom: 5px;
+}
+
+.inform h4{
+    position: relative;
+    top: 20px;
+}
+
+.inform p{
+    width: 80%;
+    position: relative;
+    bottom: 10px;
+}
+
+  /* end nav bar */
+  
+  
+}

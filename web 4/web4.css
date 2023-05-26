@@ -1,0 +1,130 @@
+body{
+          font-family: sans-serif;
+}
+
+
+
+
+
+
+.navbar{
+          width: 100%;
+          height: 60px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          background-color:rgb(153, 195, 246);
+
+}
+
+.headline{
+          width: 50%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+}
+
+.headline img{
+          width: 50px;
+          height: 50px;
+          position: relative;
+          top: 5px;
+}
+
+.headline h1{
+          color: rgb(91, 70, 208);
+          position: relative;
+          bottom: 10px;
+          right: 50px;
+}
+
+
+
+
+
+
+
+
+
+.home{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          flex-grow:5;
+         
+}
+ 
+.home p{
+          text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.518);
+          position: relative;
+          top: 5px;
+}
+
+.home p:hover{
+          text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.556);
+          color: white;
+          transition: 1s;
+}
+
+#HOME{
+          text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.586);
+          color: white;
+
+}
+
+#link{
+          text-decoration: none;
+          color: black;
+}
+
+
+
+
+
+
+
+.card{
+          width: 100%;
+          height: 200px;
+          background-color: gray;
+          display: flex;
+          flex-direction: row;
+          border-radius: 10px;
+          margin-top: 20px;
+
+}
+
+.card img{
+          width: 100px;
+          height: 100px;
+          border-radius: 50px;
+          position: relative;
+          top: 20px;
+          left: 50px;
+}
+ 
+.card h1{
+          position: relative;
+          top: 25px;
+          left: 80px;
+
+}
+
+.card p{
+          width: 600px;
+          height: 50px;
+          position: relative;
+          top: 100px;
+          left: 30px;
+}
+
+.card button{
+          width: 150px;
+          height: 40px;
+          background-color: rgb(24, 163, 24);
+          color: white;
+          position: relative;
+          top: 140px;
+          border-radius: 10px;
+          border: 1px solid ;
+}

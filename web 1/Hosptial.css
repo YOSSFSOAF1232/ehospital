@@ -1,0 +1,136 @@
+body{
+          background-image: url(Free-Hospital-3d-models-found-Available-for-free-download-8-scaled.jpeg);
+          background-size: cover;
+          font-family: sans-serif;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 30px;
+          height: 100vh;
+}
+
+
+
+
+.navbar{
+          width: 100%;
+          height: 50px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          background-color: rgba(6, 6, 6, 0);
+          position: relative;
+          bottom: 40px;
+}
+.navbar h1{
+          color: rgb(253, 253, 253);
+          letter-spacing: 5px;
+          word-spacing: 15px;
+          position: relative;
+          bottom: 15px;
+          left: 20px;
+          text-shadow: 2px 2px 2px rgba(64, 57, 57, 0.773);
+}
+.navbar button{
+      width: 120px;
+      height: 40px;
+      color: white;
+      background-color: rgb(232, 73, 73);
+      border-radius: 5px 5px;
+      border: 1px solid rgba(0, 0, 0, 0);
+      box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.609);
+      position: relative;
+      right: 30px;
+
+}
+.navbar button:hover{
+          background-color: rgb(246, 0, 0);
+          box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+
+
+          /* end nav bar */
+
+
+
+.informtioncard{
+          width: 600px;
+          height: 420px;
+          padding: 10px;
+          background-color: rgba(0, 0, 0, 0.402);
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          border-radius: 10px 10px;
+}
+
+.informtioncard h1{
+          letter-spacing: 5px;
+          word-spacing: 15px;
+          color: rgba(255, 226, 226, 0.824);
+          text-shadow: 2px 2px 2px rgba(8, 8, 8, 0.656);
+}
+
+.informtioncard p{
+          position: relative;
+          left: 15px;
+          color: white;
+}
+
+.informtioncard #visit{
+          width: 250px;
+          height: 40px;
+          font-size: 18px;
+          border-radius: 10px;
+          border: 1px solid rgba(0, 0, 0, 0);
+          background-color: rgb(208, 33, 33);
+          color: white;
+          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.457);
+}
+
+#visit:hover{
+       background-color: rgb(255, 0, 0);
+       box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+
+}
+
+
+.socailmadia{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+}
+
+.socailmadia button{
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 1px solid rgba(0, 0, 0, 0);
+          background-color: rgba(255, 255, 255, 0.485);
+          margin: 5px;
+}
+
+#photo{
+          width: 30px;
+          height: 30px;
+          align-items: center;
+}
+
+.socailmadia button:hover{
+          width: 50px;
+          height: 50px;
+          background-color: white;
+}
+
+
+
+          /*end informtioncard */
+
+
+
+
